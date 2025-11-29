@@ -1,5 +1,5 @@
 // Konfigurasi Anda (JANGAN DIUBAH)
-const WA_VERIFY_TOKEN = "MySecretCRMToken2025";
+const WA_VERIFY_TOKEN = process.env.WA_VERIFY_TOKEN;
 const TARGET_URL = "https://bintangcartravel.com/crm/data_receiver.php"; // URL Hostinger Anda
 
 // Fungsi utama yang dipanggil Vercel
